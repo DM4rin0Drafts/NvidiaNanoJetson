@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+	<world name="default">
+		<!-- Animated sky with clouds -->
+		<scene>
+			<shadows>false</shadows>
+			<sky>
+				<clouds>
+					<speed>2</speed>
+				</clouds>
+			</sky>
+		</scene> 
+
+		<!-- A global light source -->
+		<include>
+			<uri>model://sun</uri>
+		</include>
+		
+		<include>
+      			<uri>model://ground_plane</uri>
+    		</include>
+
+
+		<!-- Lego Streets -->
+		<include>
+			<uri>model://round_course_big_2</uri>
+		</include>
+
+	</world>
+</sdf>
